@@ -84,7 +84,6 @@ def load_embeddings(documents, user_query):
     db = Chroma.from_documents(
         documents=documents,
         embedding=get_embeddings_model(),
-        persist_directory="./.chroma_db",
         client_settings=Settings(anonymized_telemetry=False)
     )
     print(Fore.GREEN + Style.BRIGHT + user_query + Style.RESET_ALL)
