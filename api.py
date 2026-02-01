@@ -32,8 +32,11 @@ async def ask_question(request: QuestionRequest):
         response = query(request.question)
         return AnswerResponse(answer=response)
     except Exception as e:
+        import traceback
+        error_details = traceback.format_exc()
         print(f"Error processing query: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
+        print(f"Full traceback: {error_details}")
+        raise HTTPException(status_code=500, detail=f"Internal Server Error: {str(e)}")
 
 @app.get("/")
 @app.get("/health")
