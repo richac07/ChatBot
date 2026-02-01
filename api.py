@@ -34,9 +34,19 @@ async def ask_question(request: QuestionRequest):
     except Exception as e:
         import traceback
         error_details = traceback.format_exc()
-        print(f"Error processing query: {e}")
-        print(f"Full traceback: {error_details}")
-        raise HTTPException(status_code=500, detail=f"Internal Server Error: {str(e)}")
+        print(f"[API] ERROR processing query: {e}")
+        print(f"[API] Full traceback: {error_details}")
+        # Return a more descriptive error message to the frontend
+        error_msg = f"Backend Error: {str(e)}"
+        if "HUGGINGFACEHUB_API_TOKEN" in error_details:
+            error_msg = "Missing or Invalid HUGGINGFACEHUB_API_TOKEN in Render Environment Variables."
+        elif "GROQ_API_KEY" in error_details:
+            error_msg = "Missing or Invalid GROQ_API_KEY in Render Environment Variables."
+            
+        raise HTTPException(
+            status_code=500, 
+            detail={"message": error_msg, "traceback": error_details if os.environ.get("DEBUG") else None}
+        )
 
 @app.get("/")
 @app.get("/health")
