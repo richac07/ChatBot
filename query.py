@@ -57,7 +57,7 @@ def get_embeddings_model():
         from langchain_huggingface import HuggingFaceEndpointEmbeddings
         _embeddings = HuggingFaceEndpointEmbeddings(
             huggingfacehub_api_token=token,
-            model_name="BAAI/bge-small-en-v1.5"
+            model="BAAI/bge-small-en-v1.5"
         )
     return _embeddings
 
