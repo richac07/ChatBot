@@ -46,8 +46,8 @@ def get_embeddings_model():
     """Lazy initialization of the Hugging Face Inference API embeddings model."""
     global _embeddings
     if _embeddings is None:
-        from langchain_huggingface import HuggingFaceInferenceAPIEmbeddings
-        _embeddings = HuggingFaceInferenceAPIEmbeddings(
+        from langchain_huggingface import HuggingFaceEndpointEmbeddings
+        _embeddings = HuggingFaceEndpointEmbeddings(
             api_key=os.environ.get("HUGGINGFACEHUB_API_TOKEN"),
             model_name="BAAI/bge-small-en-v1.5"
         )
