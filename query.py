@@ -38,17 +38,25 @@ def get_llm():
     """Lazy initialization of the Groq LLM."""
     global _llm
     if _llm is None:
+        key = os.environ.get("GROQ_API_KEY")
+        if not key:
+            raise ValueError("GROQ_API_KEY is not set. Please add it to your environment variables.")
+            
         from langchain_groq import ChatGroq
-        _llm = ChatGroq(model_name="llama-3.1-8b-instant")
+        _llm = ChatGroq(model_name="llama-3.1-8b-instant", groq_api_key=key)
     return _llm
 
 def get_embeddings_model():
     """Lazy initialization of the Hugging Face Inference API embeddings model."""
     global _embeddings
     if _embeddings is None:
+        token = os.environ.get("HUGGINGFACEHUB_API_TOKEN")
+        if not token:
+            raise ValueError("HUGGINGFACEHUB_API_TOKEN is not set. Please add it to your environment variables.")
+            
         from langchain_huggingface import HuggingFaceEndpointEmbeddings
         _embeddings = HuggingFaceEndpointEmbeddings(
-            api_key=os.environ.get("HUGGINGFACEHUB_API_TOKEN"),
+            huggingfacehub_api_token=token,
             model_name="BAAI/bge-small-en-v1.5"
         )
     return _embeddings
