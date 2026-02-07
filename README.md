@@ -122,7 +122,7 @@ graph TD
         Logic -- "5. Embeds Question" --> Embed[Hugging Face Embeddings]
         Logic -- "6. Retrieve Semantically Similar" --> Chroma[ChromaDB]
         Chroma -- "7. Returns Context Chunks" --> Logic
-        Logic -- "8. Sends Prompt + Context" --> LLM[Groq (Llama 3.1)]
+        Logic -- "8. Sends Prompt + Context" --> LLM["Groq (Llama 3.1)"]
         LLM -- "9. Generates Answer" --> Logic
     end
     
