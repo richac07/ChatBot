@@ -13,7 +13,7 @@ export default function ChatPage() {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      text: "Hello! I'm your AI customer support assistant. How can I help you with Red30 Shoes today?",
+      text: "Hello! I'm SmartOhm customer support assistant. How can I help you with your queries?",
       sender: 'bot',
       timestamp: new Date(),
     },
@@ -86,7 +86,7 @@ export default function ChatPage() {
     <div className="chat-container">
       <div className="chat-header">
         <div className="status-dot"></div>
-        <h1>Online ChatBot Assistant</h1>
+        <h1>SMARTOHM ASSISTANT</h1>
       </div>
 
       <div className="messages-area">
