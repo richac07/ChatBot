@@ -1,16 +1,93 @@
-﻿Red30 Shoes
-Frequently Asked Questions (FAQs)
-What various types of shoes does Red30 Shoes offer?
-* Red30 Shoes offers a wide variety of styles including casual, sports, formal, and specialty footwear for all ages.
-What is Red30 Shoes's return policy?
-* We accept all returns within 30 days of purchase, and shoes must be in original condition with original packaging.
-How can I submit a claim or contact the customer service team?
-* Reach out to us at our email address or call us (email address and toll-free phone number available on our website).
-How much does international shipping cost?
-* International shipping costs vary by destination, starting at $15.
-What are Red30 Shoes business hours?
-* Our online store is available 24/7 for your convenience. Brick and mortar stores are open from 9 AM to 8 PM, Monday through Saturday, closed Sunday.
-Are your products environmentally friendly?
-* Yes, we have a wide eco-friendly line made from all sustainable materials.
-Is there an Red30 Shoes loyalty program?
-* Yes! Customers earn points with every purchase, redeemable for discounts on future purchases.
+SmartOhm FAQ
+SmartOhm Home Automation & Smart Home Solutions FAQ
+Last Updated: February 2026
+Source: https://smartohm.in/
+
+1. General Information
+What is SmartOhm?
+SmartOhm is a Bengaluru-based company specializing in smart home automation, home theatre systems, and security solutions. They provide cutting-edge technology to transform homes into intelligent, connected spaces.
+
+Where is SmartOhm located?
+SmartOhm operates from Bengaluru, Karnataka, India. Contact them at their listed address on the website for visits or consultations.
+
+What are SmartOhm's business hours?
+They are available Monday to Saturday, typically 10 AM to 7 PM IST. Confirm exact timings via phone or email for consultations.
+
+How can I contact SmartOhm?
+Reach out via phone, email, or their contact form on https://smartohm.in/. Response times are usually within 24 hours for inquiries.
+
+2. Home Automation
+What home automation solutions does SmartOhm offer?
+Solutions include smart lighting, climate control, motorized curtains, AV automation, and centralized control systems for lights, appliances, and security.
+
+Which smart lighting systems are available?
+Wi-Fi and Zigbee-based smart bulbs, switches, and dimmers that integrate with voice assistants like Alexa, Google Home, and Siri.
+
+Can I control my home remotely?
+Yes, via mobile apps on iOS/Android. Control lights, AC, fans, curtains, and more from anywhere with internet access.
+
+What voice control options are supported?
+Full integration with Amazon Alexa, Google Assistant, and Apple HomeKit for hands-free operation.
+
+3. Home Theatre Solutions
+What home theatre packages does SmartOhm provide?
+Options range from entry-level 5.1 systems to premium Dolby Atmos setups with 4K projectors, acoustic paneling, and motorized screens.
+
+Do they offer custom home theatre design?
+Yes, bespoke designs including room acoustics, seating layouts, and integration with smart home controls.
+
+Which brands do they use for home theatres?
+Partners with brands like Sony, JBL, Yamaha, Epson projectors, and Kaleidescape for media servers.
+
+4. Security Systems
+What security products does SmartOhm install?
+Smart CCTV cameras, video doorbells, motion sensors, smart locks, and intrusion alarms with 24/7 monitoring options.
+
+Are the security cameras wireless?
+Yes, battery/solar-powered wireless cameras with AI motion detection, night vision, and cloud storage.
+
+Can security integrate with home automation?
+Full integration—arm/disarm via app/voice, receive alerts on your phone, and link with lights/sirens.
+
+5. Products and Technology
+What protocols do SmartOhm systems use?
+Zigbee, Z-Wave, Wi-Fi, and Matter for reliable, future-proof interoperability.
+
+Is SmartOhm compatible with third-party devices?
+Yes, works with 1000+ devices from Philips Hue, Sonos, Nest, and other ecosystems.
+
+What is the warranty on products?
+Typically 1-2 years on devices, lifetime technical support, and 5-year workmanship warranty on installations.
+
+6. Installation and Setup
+How long does installation take?
+1-3 days for standard homes; custom projects up to 1 week. Minimal wiring disruption with wireless options.
+
+Do they handle site surveys?
+Free site visits in Bengaluru for layout planning, wiring assessment, and customized quotes.
+
+Is training provided after installation?
+Yes, detailed walkthroughs, app setup, and user manuals tailored to your home.
+
+7. Support and Maintenance
+What after-sales support is available?
+24/7 emergency support, annual maintenance contracts (AMC), and free software updates.
+
+How much do AMCs cost?
+Basic AMC: ₹5,000-10,000/year; premium with priority response: ₹15,000+. Custom quotes available.
+
+Can I upgrade my system later?
+Modular design allows easy additions like new cameras or rooms without full replacement.
+
+8. Pricing and Consultation
+What is the cost range for smart home setups?
+Basic automation: ₹50,000-2 lakhs; full home (3BHK): ₹5-15 lakhs; luxury: ₹25 lakhs+. Quotes are customized.
+
+Is financing available?
+EMI options through partners like Bajaj Finserv or bank loans for eligible customers.
+
+How do I get a quote?
+Fill the website form or call for a free consultation and site visit. No obligation.
+
+Are there any ongoing costs?
+Minimal—electricity for devices (~₹500/month), optional cloud storage (₹300-1000/month).
